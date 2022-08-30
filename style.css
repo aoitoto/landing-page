@@ -1,0 +1,207 @@
+@font-face {
+    font-family: roboto;
+    src: url(roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-italic;
+    src: url(roboto/Roboto-LightItalic.ttf);
+}
+
+* {
+    font-family: roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px 0;
+    background-color: #1f2937;
+    color: white;
+    font-family: "roboto";
+    align-items: center;
+}
+
+ul {
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    padding: 0 10px 0;
+}
+
+.top {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.subtext-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    margin-right: 200px;
+    width: 600px;
+    flex-shrink: 0;
+    margin: 50px 250px 50px 50px;
+    height: 300px;
+}
+
+.left {
+    padding: 50px;
+    margin-left: 200px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 30px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+p {
+    font-family: roboto-light;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.middle-top {
+    color: #1f2937;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    border: 5px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.description {
+    align-self: center;
+    text-align: center;
+}
+
+.middle-bottom {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 400px;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: roboto-italic;
+    font-size: 40px;
+    margin: 100px 300px 0px;
+    justify-self: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.thor {
+    align-self: flex-end;
+    font-family: roboto;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    margin: 100px 200px 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 25px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+}
+
+h4 {
+    font-family: roboto;
+    font-size: 25px;
+    padding: 0 20px 0;
+    margin: 0;
+}
+
+.words {
+    padding: 0 20px 0;
+    margin: 0;
+}
+
+.sign-up {
+    border: 1px solid white;
+    align-self: center;
+    margin: 70px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
